@@ -16,10 +16,12 @@ body{font-family: 'Lemonada', cursive;}
   transform: rotate(-5deg);
   margin-bottom: 40;
 }
-.main-img {width: 100%; padding-top: 40; padding-bottom: 60;}
-
 p {font-size: 11px;}
 .card {padding: 20; background-color: rgb(209, 212, 214) ; text-align: center;}
+.main-img {width: 100%; padding-top: 40; padding-bottom: 60;}
+
+
+
 
 
 
