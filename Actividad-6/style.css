@@ -7,18 +7,19 @@ body{font-family: 'Lemonada', cursive;}
   color: rgb(177, 39, 39); 
   text-shadow: 2px 3px rgb(216, 178, 163);
   transform: rotate(-5deg);
-  padding-top: 80;
+  margin-top: 80;
 }
 .title {
   text-align: center; 
   color: rgb(214, 172, 117); 
   text-shadow: 2px 3px rgb(241, 225, 209);
   transform: rotate(-5deg);
-  padding-bottom: 80;
+  margin-bottom: 80;
 }
 .main-img {width: 100%; margin-bottom: 50}
 p {font-size: 11px;}
 .card {padding: 20; background-color: rgb(209, 212, 214) ; text-align: center;}
+
 
 
 
