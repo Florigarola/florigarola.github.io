@@ -1,5 +1,13 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
 html,body{height:100%}
 body{font-family: 'Lemonada', cursive;}
+.main-title {
+  text-align: center; 
+  color: rgb(177, 39, 39); 
+  text-shadow: 2px 3px rgb(216, 178, 163);
+  transform: rotate(-5deg);
+  margin-top: 80;
 }
 .title {
   text-align: center; 
@@ -8,16 +16,9 @@ body{font-family: 'Lemonada', cursive;}
   transform: rotate(-5deg);
   margin-bottom: 80;
 }
-.main-title {
-  text-align: center; 
-  color: rgb(177, 39, 39); 
-  text-shadow: 2px 3px rgb(216, 178, 163);
-  transform: rotate(-5deg);
-  margin-top: 80;
-
 p {font-size: 11px;}
 .card {padding: 20; background-color: rgb(209, 212, 214) ; text-align: center;}
-.main-img {width: 100%; padding-top: 40; padding-bottom: 60;}
+.main-img {width: 100%;}
 
 
 
