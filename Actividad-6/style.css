@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
 
 html,body{height:100%}
 body{font-family: 'Lemonada', cursive;}
@@ -19,6 +19,7 @@ body{font-family: 'Lemonada', cursive;}
 .main-img {width: 100%; margin-bottom: 50}
 p {font-size: 11px;}
 .card {padding: 20; background-color: rgb(209, 212, 214) ; text-align: center;}
+
 
 
 
