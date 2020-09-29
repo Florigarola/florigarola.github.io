@@ -1,1 +1,65 @@
+html,body{height:100%}
+:root{
+  --cText0: #141442; 
+  --cText1: #38384E; 
+  --cText2: #70708F; 
+  --cLink: #5C5CD3; 
+  --cBG0: #F7E7F1; 
+  --cBorder: #70708F; 
+  --cShadow: #70708F;
+  }
+
+body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+color: var(--cText0); 
+background-color: var(--cBG0); 
+margin: 4em 4em;
+}
+body.dark{
+--cText0: #dbdff3; 
+  --cText1: #b8bcc5; 
+  --cText2: #aeade9; 
+  --cLink: rgb(122, 122, 187); 
+  --cBG0: #080a18; 
+  --cBorder: #7b7f86; 
+  --cShadow: #b8bcc5; 
+}
+h1 {text-align: center;
+font-size: 3em; 
+font-style: ;
+}
+header .tagline {text-align: center; 
+font-size: 1.2em;
+font-style: italic;
+color: var(--cText2);
+}
+nav>ul, footer>ul{list-style-type: none;
+text-align: center;
+}
+nav>ul>li, footer>ul>li{
+  display: inline-block;
+  margin-right: 1em;
+}
+a {text-decoration: none; color: var(--cLink) ;
+}
+a:visited, footer>ul a:visited {color: var(--cLink) ;
+}
+a:hover, footer>ul a:hover {text-decoration: underline;
+}
+article p {color: var(--cText1);
+}
+.post-info .author {font-weight: bold; color: var(--cText1) ;
+}
+.post-info .date-created {float: right;
+font-size: 0.9em;
+color: var(--cText2);
+}
+article{
+  margin: 2em 0em;
+  padding: 2em;
+  border: 1px solid var(--cBorder);
+  border-radius: 0.25em;
+  box-shadow: 2px 2px var(--cShadow);
+}
+article h2{margin-top: 0;
+}
 
